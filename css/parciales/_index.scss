@@ -1,0 +1,64 @@
+.nav{
+    background-color: #2e5e9c;
+
+    &__li{
+        padding: 15px;
+    }
+
+    &__a{
+        color: white;
+        text-decoration: none;
+    }
+
+    &__a:hover{
+        text-decoration: underline;
+        color: beige;
+    }
+}
+
+.boton{
+    background-color: $primario;
+    color: white;
+    border: #2e5e9c;
+}
+
+.box{
+    justify-self: center;
+    align-items: center;
+    
+}
+
+.socp{
+    display: flex;
+    margin-top: 35px;
+    background-color: #2e5e9c;
+    align-items: center;
+    color: white;
+}
+
+.historia{
+    background-color: $primario;
+    border-radius: 5px;
+    justify-self: center;
+    margin-top: 65px;
+
+    &__h2{
+        font-size: 2rem;
+        padding: 20px;
+        letter-spacing: 0.2rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    &__p{
+        color: white;
+        justify-self: center;
+        text-align: center;
+    }
+    &__hr{
+        margin-top: 10px;
+        border: 3px solid; 
+        overflow: hidden;
+    }
+}
